@@ -1,6 +1,6 @@
 cask "mahzen" do
-  version "1.0.3"
-  sha256 "64645683ee8defac4c8e8a025084a63512564ad081316eb849bc2488e2c414eb"
+  version "1.1.0"
+  sha256 "ae180c39bb2ad56c7c383a93d76aa3bb870066fd85123c910810d3938fe6bc3c"
 
   url "https://github.com/dotyigit/mahzen/releases/download/v#{version}/Mahzen-#{version}.dmg"
   name "Mahzen"
