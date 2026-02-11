@@ -1,8 +1,8 @@
 cask "mahzen" do
-  version "1.1.4"
-  sha256 "075a4d5f9260fc1551e29a3be9f60c7ffec741e2c0af1b3c957aa2e7dce27c9b"
+  version "2.0.0"
+  sha256 "55f9b2beac91cb69618c8324fb217bdea252c571a5412f82d2f92b7e7901e313"
 
-  url "https://github.com/dotyigit/mahzen/releases/download/v#{version}/Mahzen-#{version}.dmg"
+  url "https://github.com/dotyigit/mahzen/releases/download/v#{version}/Mahzen_2.0.0_aarch64.dmg"
   name "Mahzen"
   desc "Browse, upload, and download files to S3-compatible object storage"
   homepage "https://mahzen.dev"
@@ -18,8 +18,8 @@ cask "mahzen" do
   app "Mahzen.app"
 
   zap trash: [
-    "~/Library/Application Support/Mahzen",
-    "~/Library/Preferences/com.dotyigit.Mahzen.plist",
-    "~/Library/Caches/com.dotyigit.Mahzen",
+    "~/Library/Application Support/dev.mahzen",
+    "~/Library/Preferences/dev.mahzen.plist",
+    "~/Library/Caches/dev.mahzen",
   ]
 end
