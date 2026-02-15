@@ -1,8 +1,8 @@
 cask "mahzen" do
-  version "2.0.7"
-  sha256 "599160aa81d75f18ed66fd55b514bec21828a148abad2cbd91f0842ab6840ab7"
+  version "0.1.0"
+  sha256 "7183836e3a6f936d6ad6beae8e041749ccf5bab8af1a3af7c89d29d2404dc921"
 
-  url "https://github.com/dotyigit/mahzen/releases/download/v#{version}/Mahzen_2.0.7_aarch64.dmg"
+  url "https://github.com/dotyigit/mahzen/releases/download/v#{version}/Mahzen_0.1.0_aarch64.dmg"
   name "Mahzen"
   desc "Browse, upload, and download files to S3-compatible object storage"
   homepage "https://mahzen.dev"
