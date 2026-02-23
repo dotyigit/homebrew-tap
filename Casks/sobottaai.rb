@@ -1,6 +1,6 @@
 cask "sobottaai" do
-  version "0.1.6"
-  sha256 "4be8c55a1905729351dd7e91f06d930094dfd05fa18012c80f4d272dcaa12d91"
+  version "0.1.7"
+  sha256 "1c484010df93e26f9cfca5514ae57f20fb9358bca6d2fb7e2208a1a1d97e4fcb"
 
   url "https://github.com/dotyigit/sobottaai/releases/download/v#{version}/SobottaAI_#{version}_aarch64.dmg"
   name "SobottaAI"
